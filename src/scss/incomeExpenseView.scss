@@ -1,0 +1,143 @@
+.incomeContainer {
+  background-color: rgb(161, 195, 161);
+}
+
+.expenseContainer {
+  background-color: rgb(211, 108, 108);
+}
+
+.income_expense_view {
+  //   display: flex;
+  //   flex-direction: column;
+  color: rgba(black, 0.8);
+  letter-spacing: 0.1rem;
+  border-radius: 0.6rem;
+  width: 48%;
+  height: 120%;
+  margin-top: 3rem;
+  //   overflow-y: scroll;
+  padding: 1.2rem;
+  .heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .total {
+    padding-top: 1rem;
+    font-size: 1.9rem;
+    text-align: center;
+  }
+
+  .add {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+      font-size: 2rem;
+    }
+
+    .incomeExpenseInputDescription {
+      font-size: 2rem;
+      border: none;
+      border-radius: 0.4rem;
+      outline: none;
+      padding: 0.5rem;
+      background-color: rgba(rgb(226, 229, 190), 0.2);
+      color: rgba(white, 0.7);
+      &::placeholder {
+        opacity: 0.3;
+        color: white;
+      }
+    }
+
+    .incomeExpenseDescription {
+      width: 40%;
+    }
+
+    .incomeExpenseInput {
+      width: 30%;
+    }
+
+    .addIcon {
+      text-align: center;
+      cursor: pointer;
+      font-size: 2rem;
+      background-color: rgb(208, 204, 204);
+
+      .addIcon_Logo {
+        fill: rgb(142, 243, 142);
+      }
+    }
+  }
+  .income_expense_list {
+    font-size: 2.2rem;
+    height: 20rem;
+    text-decoration: none;
+
+    .list {
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      height: 20rem;
+      overflow-y: scroll;
+      .list_element {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        text-decoration: none;
+        width: 100%;
+
+        .list_element_heading {
+          flex: 1;
+        }
+
+        .list_element_amount {
+          margin-right: 1rem;
+        }
+
+        .list_element_delete_button {
+          //   font-size: 4rem;
+          padding: 0;
+          margin: 0;
+
+          .delete_icon {
+            background-color: rgb(145, 143, 143);
+            font-size: 2.5rem;
+            fill: rgb(15, 10, 10);
+            transition: all 0.3s;
+            cursor: pointer;
+
+            &:hover {
+              background-color: red;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .btn-to-income_expense {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  .incomeExpenseViewBtn {
+    background-color: rgba($color: #504f4f, $alpha: 0.4);
+    text-decoration: none;
+    color: rgb(206, 203, 203);
+    padding: 0.5rem;
+    border-radius: 2rem;
+    transition: all 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 0.5rem 1rem;
+
+    &:hover {
+      color: black;
+      background-color: white;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  color: rgb(237, 223, 205);
+
+  .home_button {
+    border: none;
+    color: rgb(237, 223, 205);
+  }
+
+  .logo {
+    margin-top: 1rem;
+    font-size: 8rem;
+    &_icon {
+      fill: rgb(237, 223, 205);
+      cursor: pointer;
+    }
+  }
+
+  .login_logout_buttons {
+    margin-right: 1rem;
+    .login_button {
+      background-color: black;
+      &:hover {
+        background-color: rgb(196, 190, 190);
+      }
+    }
+
+    .logout_button {
+      background-color: rgb(190, 184, 184);
+      &:hover {
+        background-color: rgb(241, 58, 58);
+      }
+    }
+    .login_button,
+    .logout_button {
+      font-size: 2rem;
+      padding: 1rem 2rem;
+      border-radius: 1rem;
+      transition: all 0.2s;
+      color: rgb(237, 223, 205);
+      outline: none;
+      cursor: pointer;
+      border: none;
+    }
+  }
+}

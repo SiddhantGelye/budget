@@ -1,0 +1,17 @@
+.app_container {
+  background: rgb(115, 120, 120);
+  background: linear-gradient(
+      rgba(70, 70, 70, 0.954) 0%,
+      rgba(12, 12, 12, 0.8) 40%,
+      rgb(16, 15, 15) 100%
+    ),
+    no-repeat;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.app {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+}

@@ -1,0 +1,26 @@
+.home {
+  margin-top: 1rem;
+  padding: 1rem;
+  margin: 0 auto;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(237, 223, 205);
+
+  h3 {
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+    line-height: 8rem;
+    margin-bottom: 1rem;
+    color: inherit;
+  }
+  .start_app_button {
+    font-size: 3rem;
+    background-color: rgb(82, 82, 82);
+    border-radius: 1rem;
+    padding: 1rem;
+    color: inherit;
+    text-decoration: none;
+  }
+}
